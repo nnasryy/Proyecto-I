@@ -13,9 +13,7 @@ public class mainMenu extends javax.swing.JFrame {
     /**
      * Creates new form mainMenu
      */
-    public mainMenu() {
-        initComponents();
-    }
+ 
 
     /**
      * This method is called from within the constructor to initialize the form.

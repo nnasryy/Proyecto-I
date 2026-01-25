@@ -8,12 +8,12 @@ package battleshipdinamico;
  *
  * @author nasry
  */
-public class Min3JOPREP extends javax.swing.JFrame {
+public class Max20JOPREP extends javax.swing.JFrame {
 
     /**
-     * Creates new form Min3JOPREP
+     * Creates new form Max20JOPREP
      */
-    public Min3JOPREP() {
+    public Max20JOPREP() {
         initComponents();
     }
 
@@ -26,17 +26,12 @@ public class Min3JOPREP extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("Minimo tres letras o numeros en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, 90));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
@@ -49,6 +44,11 @@ public class Min3JOPREP extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 170, 50));
+
+        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel2.setText("MaXIMO veinte letras o numeros en username y password");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 90));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));
