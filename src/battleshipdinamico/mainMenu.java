@@ -27,36 +27,60 @@ public class mainMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        LogInBtn = new javax.swing.JButton();
+        SignUpBtn = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        Background = new javax.swing.JLabel();
 
         jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setBackground(new java.awt.Color(39, 69, 98));
-        jButton2.setFont(new java.awt.Font("Candara", 3, 24)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(186, 215, 241));
-        jButton2.setMnemonic('L');
-        jButton2.setText("LOG IN");
-        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        LogInBtn.setBackground(new java.awt.Color(18, 40, 61));
+        LogInBtn.setFont(new java.awt.Font("Capture it", 1, 24)); // NOI18N
+        LogInBtn.setForeground(new java.awt.Color(186, 215, 241));
+        LogInBtn.setText("LOG IN");
+        LogInBtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
+        LogInBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                LogInBtnActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 170, 40));
+        getContentPane().add(LogInBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 230, 40));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mainMenu.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 590));
+        SignUpBtn.setBackground(new java.awt.Color(15, 35, 56));
+        SignUpBtn.setFont(new java.awt.Font("Capture it", 1, 24)); // NOI18N
+        SignUpBtn.setForeground(new java.awt.Color(186, 215, 241));
+        SignUpBtn.setText("CREAR PLAYER");
+        SignUpBtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
+        SignUpBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SignUpBtnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(SignUpBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 230, 40));
+
+        jButton2.setBackground(new java.awt.Color(102, 0, 0));
+        jButton2.setFont(new java.awt.Font("Capture it", 0, 24)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 204, 204));
+        jButton2.setText("Salir");
+        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 540, 120, 40));
+
+        Background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mainMenu.png"))); // NOI18N
+        getContentPane().add(Background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 590));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void LogInBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LogInBtnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_LogInBtnActionPerformed
+
+    private void SignUpBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignUpBtnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_SignUpBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -64,8 +88,10 @@ public class mainMenu extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Background;
+    private javax.swing.JButton LogInBtn;
+    private javax.swing.JButton SignUpBtn;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
