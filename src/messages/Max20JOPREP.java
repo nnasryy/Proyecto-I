@@ -47,8 +47,8 @@ public class Max20JOPREP extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("MaXIMO veinte letras o numeros en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 90));
+        jLabel2.setText("MaXIMO veinte caracteres en username y password");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, 90));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));

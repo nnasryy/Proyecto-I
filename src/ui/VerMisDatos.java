@@ -8,12 +8,12 @@ package ui;
  *
  * @author nasry
  */
-public class Configuracion extends javax.swing.JFrame {
+public class VerMisDatos extends javax.swing.JFrame {
 
     /**
-     * Creates new form Configuracion
+     * Creates new form VerMisDATOS
      */
-    public Configuracion() {
+    public VerMisDatos() {
         initComponents();
     }
 
@@ -28,9 +28,11 @@ public class Configuracion extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -40,22 +42,10 @@ public class Configuracion extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 0)));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 52)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel3.setText("configuracion");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 370, 70));
-
-        jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 204, 0));
-        jButton1.setText("modo de juego");
-        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 210, 200, 60));
+        jLabel3.setText("password:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 200, 50));
 
         jButton2.setBackground(new java.awt.Color(34, 33, 33));
         jButton2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
@@ -67,50 +57,56 @@ public class Configuracion extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, 200, 50));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 380, 240, 40));
 
-        jButton3.setBackground(new java.awt.Color(34, 33, 33));
-        jButton3.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(0, 204, 0));
-        jButton3.setText("dificultad");
-        jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 200, 60));
+        jLabel4.setFont(new java.awt.Font("Inlanders", 0, 52)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel4.setText("ver mis datos");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 360, 70));
+
+        jLabel5.setFont(new java.awt.Font("Inlanders", 0, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel5.setText("username:");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 190, 50));
+
+        jTextField1.setEditable(false);
+        jTextField1.setBackground(new java.awt.Color(34, 36, 37));
+        jTextField1.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(0, 255, 51));
+        jTextField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51)));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 400, -1));
+
+        jTextField2.setEditable(false);
+        jTextField2.setBackground(new java.awt.Color(34, 36, 37));
+        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 255, 51));
+        jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51)));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 400, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 520, 430));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/UserScreen.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 590));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 590));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
-
     /**
      * @param args the command line arguments
      */
-  
+ 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
 }

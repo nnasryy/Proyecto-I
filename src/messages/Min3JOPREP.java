@@ -35,8 +35,8 @@ public class Min3JOPREP extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("Minimo tres letras o numeros en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, 90));
+        jLabel2.setText("Minimo tres caracteres en username y password");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, 90));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N

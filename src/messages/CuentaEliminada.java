@@ -2,18 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package ui;
+package messages;
 
 /**
  *
  * @author nasry
  */
-public class Ultimos10Juegos extends javax.swing.JFrame {
+public class CuentaEliminada extends javax.swing.JFrame {
 
     /**
-     * Creates new form Ultimos10Juegos
+     * Creates new form CuentaEliminada
      */
-    public Ultimos10Juegos() {
+    public CuentaEliminada() {
         initComponents();
     }
 
@@ -26,24 +26,17 @@ public class Ultimos10Juegos extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 0)));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 48)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 52)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel3.setText("ultimos diez juegos");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 480, 70));
+        jLabel3.setText("cuenta Eliminada!");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 120, 460, 70));
 
         jButton2.setBackground(new java.awt.Color(34, 33, 33));
         jButton2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
@@ -55,23 +48,10 @@ public class Ultimos10Juegos extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 140, 30));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 260, 40));
 
-        jTextArea1.setBackground(new java.awt.Color(23, 24, 24));
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
-        jTextArea1.setForeground(new java.awt.Color(0, 255, 0));
-        jTextArea1.setRows(5);
-        jTextArea1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 204, 0), new java.awt.Color(0, 204, 0)));
-        jTextArea1.setEnabled(false);
-        jScrollPane1.setViewportView(jTextArea1);
-
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 600, 310));
-
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 650, 430));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/UserScreen.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 590));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -89,8 +69,5 @@ public class Ultimos10Juegos extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 }
