@@ -8,7 +8,7 @@ package battleshipdinamico;
  *
  * @author nasry
  */
-public class BattleshipDinamico {
+public class Main {
 
     /**
      * @param args the command line arguments
