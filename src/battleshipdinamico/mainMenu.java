@@ -36,7 +36,7 @@ public class mainMenu extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton2.setBackground(new java.awt.Color(39, 69, 98));
-        jButton2.setFont(new java.awt.Font("Segoe UI Variable", 3, 24)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Candara", 3, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(186, 215, 241));
         jButton2.setMnemonic('L');
         jButton2.setText("LOG IN");
