@@ -34,13 +34,13 @@ public class CambiarPassword extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 30)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 30)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
         jLabel2.setText("Nuevo password:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, 90));
 
         jTextField2.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 255, 0));
         jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -51,7 +51,7 @@ public class CambiarPassword extends javax.swing.JFrame {
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 130, 270, 40));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 255, 0));
         jButton1.setText("OKAY");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
@@ -62,6 +62,8 @@ public class CambiarPassword extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 170, 50));
 
+        jLabel1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 255, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));
 
@@ -79,37 +81,7 @@ public class CambiarPassword extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CambiarPassword.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CambiarPassword.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CambiarPassword.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CambiarPassword.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new CambiarPassword().setVisible(true);
-            }
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;

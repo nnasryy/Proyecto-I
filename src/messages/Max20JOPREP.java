@@ -34,7 +34,7 @@ public class Max20JOPREP extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 255, 0));
         jButton1.setText("OKAY");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
@@ -45,10 +45,10 @@ public class Max20JOPREP extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 170, 50));
 
-        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("MaXIMO veinte caracteres en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, 90));
+        jLabel2.setText("MaXIMO 20 caracteres en username y password");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, 90));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));

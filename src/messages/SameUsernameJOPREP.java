@@ -36,13 +36,13 @@ public class SameUsernameJOPREP extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 26)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 26)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
         jLabel2.setText("Este username ya exite, vuelve a intentar ");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 255, 0));
         jButton1.setText("OKAY");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));

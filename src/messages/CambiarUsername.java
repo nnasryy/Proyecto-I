@@ -35,7 +35,7 @@ public class CambiarUsername extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 255, 0));
         jButton1.setText("OKAY");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
@@ -47,7 +47,8 @@ public class CambiarUsername extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 170, 50));
 
         jTextField2.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 255, 0));
         jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,7 +57,7 @@ public class CambiarUsername extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, 270, 40));
 
-        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 30)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Cold Warm", 0, 30)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 0));
         jLabel3.setText("Nuevo username:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, 40));

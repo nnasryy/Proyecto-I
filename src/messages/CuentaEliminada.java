@@ -33,13 +33,13 @@ public class CuentaEliminada extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 52)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Cold Warm", 0, 52)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 0));
         jLabel3.setText("cuenta Eliminada!");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 120, 460, 70));
 
         jButton2.setBackground(new java.awt.Color(34, 33, 33));
-        jButton2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 204, 0));
         jButton2.setText("salir");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));

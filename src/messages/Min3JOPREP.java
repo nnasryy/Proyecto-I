@@ -33,13 +33,13 @@ public class Min3JOPREP extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("Minimo tres caracteres en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, 90));
+        jLabel2.setText("Minimo 3 caracteres en username y password");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, 90));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 255, 0));
         jButton1.setText("OKAY");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));

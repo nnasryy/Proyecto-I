@@ -40,7 +40,7 @@ public class Configuracion extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 0)));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Inlanders", 0, 52)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Cold Warm", 0, 52)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 255, 0));
         jLabel3.setText("configuracion");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 370, 70));

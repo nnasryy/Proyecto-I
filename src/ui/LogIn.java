@@ -60,11 +60,13 @@ public class LogIn extends javax.swing.JFrame {
 
         jPasswordField1.setBackground(new java.awt.Color(34, 33, 33));
         jPasswordField1.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jPasswordField1.setForeground(new java.awt.Color(0, 255, 0));
         jPasswordField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
         jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 250, 40));
 
         jTextField1.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField1.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Cold Warm", 0, 18)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(0, 255, 0));
         jTextField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
