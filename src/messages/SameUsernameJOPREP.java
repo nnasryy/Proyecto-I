@@ -39,7 +39,7 @@ public class SameUsernameJOPREP extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 26)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
         jLabel2.setText("Este username ya exite, vuelve a intentar ");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N

@@ -57,11 +57,13 @@ public class Ranking extends javax.swing.JFrame {
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 140, 30));
 
+        jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(23, 24, 24));
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Cold Warm", 0, 18)); // NOI18N
+        jTextArea1.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
         jTextArea1.setForeground(new java.awt.Color(0, 255, 0));
         jTextArea1.setRows(5);
+        jTextArea1.setAutoscrolls(false);
         jTextArea1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 204, 0), new java.awt.Color(0, 204, 0)));
         jTextArea1.setDisabledTextColor(new java.awt.Color(0, 255, 0));
         jTextArea1.setEnabled(false);

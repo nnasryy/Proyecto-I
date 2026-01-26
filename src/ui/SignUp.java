@@ -54,14 +54,15 @@ public class SignUp extends javax.swing.JFrame {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 200, 40));
 
         jTextField2.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 255, 0));
         jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, 230, 40));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 250, 40));
 
         jLabel2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(22, 188, 63));
@@ -69,7 +70,8 @@ public class SignUp extends javax.swing.JFrame {
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 210, 40));
 
         jPasswordField1.setBackground(new java.awt.Color(34, 33, 33));
-        jPasswordField1.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jPasswordField1.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
+        jPasswordField1.setForeground(new java.awt.Color(0, 255, 0));
         jPasswordField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
         jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 250, 40));
 

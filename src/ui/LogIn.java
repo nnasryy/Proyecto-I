@@ -59,13 +59,13 @@ public class LogIn extends javax.swing.JFrame {
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 200, 70));
 
         jPasswordField1.setBackground(new java.awt.Color(34, 33, 33));
-        jPasswordField1.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jPasswordField1.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
         jPasswordField1.setForeground(new java.awt.Color(0, 255, 0));
         jPasswordField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
         jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 250, 40));
 
         jTextField1.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField1.setFont(new java.awt.Font("Cold Warm", 0, 18)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 255, 0));
         jTextField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +73,7 @@ public class LogIn extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, 230, 40));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 250, 40));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
