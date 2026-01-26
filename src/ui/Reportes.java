@@ -46,7 +46,7 @@ public class Reportes extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, -1, 70));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 204, 0));
         jButton1.setText("ranking de jugadores");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
@@ -70,9 +70,9 @@ public class Reportes extends javax.swing.JFrame {
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 200, 50));
 
         jButton3.setBackground(new java.awt.Color(34, 33, 33));
-        jButton3.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 204, 0));
-        jButton3.setText("descripcion de mis ultimos diez juegos");
+        jButton3.setText("descripcion de mis ultimos 10 juegos");
         jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

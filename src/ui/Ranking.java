@@ -60,10 +60,10 @@ public class Ranking extends javax.swing.JFrame {
         jTextArea1.setBackground(new java.awt.Color(23, 24, 24));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Cold Warm", 0, 18)); // NOI18N
-        jTextArea1.setForeground(new java.awt.Color(51, 255, 51));
+        jTextArea1.setForeground(new java.awt.Color(0, 255, 0));
         jTextArea1.setRows(5);
-        jTextArea1.setText("uefbpwvbwrvbr\nwqiruvbprvbpireqvbprqiw\n32p89ry439th94t597hg\n429yg0fb138rvyb3r8vb");
         jTextArea1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 204, 0), new java.awt.Color(0, 204, 0)));
+        jTextArea1.setDisabledTextColor(new java.awt.Color(0, 255, 0));
         jTextArea1.setEnabled(false);
         jScrollPane1.setViewportView(jTextArea1);
 

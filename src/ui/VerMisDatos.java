@@ -71,16 +71,19 @@ public class VerMisDatos extends javax.swing.JFrame {
 
         jTextField1.setEditable(false);
         jTextField1.setBackground(new java.awt.Color(34, 36, 37));
-        jTextField1.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Cold Warm", 0, 20)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 255, 51));
         jTextField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51)));
+        jTextField1.setDisabledTextColor(new java.awt.Color(0, 255, 0));
+        jTextField1.setEnabled(false);
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 400, -1));
 
         jTextField2.setEditable(false);
         jTextField2.setBackground(new java.awt.Color(34, 36, 37));
-        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 20)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Cold Warm", 0, 20)); // NOI18N
         jTextField2.setForeground(new java.awt.Color(0, 255, 51));
         jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 51), new java.awt.Color(0, 255, 51)));
+        jTextField2.setCaretColor(new java.awt.Color(0, 255, 0));
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 400, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 520, 430));
