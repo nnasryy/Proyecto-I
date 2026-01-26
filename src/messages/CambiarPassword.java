@@ -40,7 +40,8 @@ public class CambiarPassword extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, 90));
 
         jTextField2.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 18)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 255, 0));
         jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
