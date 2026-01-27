@@ -31,8 +31,19 @@ public class PickerNave extends javax.swing.JFrame {
         LogInBtn7 = new javax.swing.JButton();
         LogInBtn8 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
+        playerName = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        playerName1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        playerName2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        playerName3 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -41,73 +52,126 @@ public class PickerNave extends javax.swing.JFrame {
         LogInBtn5.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn5.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn5.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn5.setText("BATTLESHIP");
+        LogInBtn5.setText("acorazado");
         LogInBtn5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn5ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 290, 420, 160));
+        getContentPane().add(LogInBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 420, 160));
 
         LogInBtn6.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn6.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn6.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn6.setText("BATTLESHIP");
+        LogInBtn6.setText("destructor");
         LogInBtn6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn6ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 460, 420, 160));
+        getContentPane().add(LogInBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 340, 420, 160));
 
         LogInBtn7.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn7.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn7.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn7.setText("BATTLESHIP");
+        LogInBtn7.setText("portaaviones");
         LogInBtn7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn7ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 420, 160));
+        getContentPane().add(LogInBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 520, 420, 160));
 
         LogInBtn8.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn8.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn8.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn8.setText("BATTLESHIP");
+        LogInBtn8.setText("submarino");
         LogInBtn8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn8ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, 420, 160));
+        getContentPane().add(LogInBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, 420, 160));
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(26, 26, 26));
+        playerName.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName.setForeground(new java.awt.Color(9, 9, 71));
+        playerName.setText("PLAYER NAME");
+        jPanel1.add(playerName, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 250, 40));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 220, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 520, Short.MAX_VALUE)
-        );
+        jLabel3.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel3.setText("LINEUP PARA:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 250, 40));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 220, 520));
+        jPanel2.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/UserScreen.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 390, 640));
+        playerName1.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName1.setForeground(new java.awt.Color(9, 9, 71));
+        playerName1.setText("PLAYER NAME");
+        jPanel2.add(playerName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 70, 390, 640));
+        jLabel4.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel4.setText("LINEUP PARA:");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jPanel3.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        playerName2.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName2.setForeground(new java.awt.Color(9, 9, 71));
+        playerName2.setText("PLAYER NAME");
+        jPanel3.add(playerName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
+
+        jLabel5.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel5.setText("LINEUP PARA:");
+        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel4.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        playerName3.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName3.setForeground(new java.awt.Color(9, 9, 71));
+        playerName3.setText("PLAYER NAME");
+        jPanel4.add(playerName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
+
+        jLabel6.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel6.setText("LINEUP PARA:");
+        jPanel4.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(14, 13, 42));
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("OCR A Extended", 1, 24)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(229, 229, 242));
+        jTextArea1.setRows(5);
+        jTextArea1.setText("1. Acorazado\n2. Destructor\n3. Submarino\n4. Destructor");
+        jTextArea1.setAutoscrolls(false);
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 350, -1));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 170, 370, 360));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PickerBackground.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1330, -1));
@@ -173,7 +237,18 @@ public class PickerNave extends javax.swing.JFrame {
     private javax.swing.JButton LogInBtn8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JLabel playerName;
+    private javax.swing.JLabel playerName1;
+    private javax.swing.JLabel playerName2;
+    private javax.swing.JLabel playerName3;
     // End of variables declaration//GEN-END:variables
 }
