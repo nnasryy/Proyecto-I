@@ -44,6 +44,12 @@ public class PickerNave extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        playerName4 = new javax.swing.JLabel();
+        playerName5 = new javax.swing.JLabel();
+        playerName6 = new javax.swing.JLabel();
+        playerName7 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -52,50 +58,50 @@ public class PickerNave extends javax.swing.JFrame {
         LogInBtn5.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn5.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn5.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn5.setText("acorazado");
+        LogInBtn5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/AcorazadoBtn.png"))); // NOI18N
         LogInBtn5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn5ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 420, 160));
+        getContentPane().add(LogInBtn5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, 420, 160));
 
         LogInBtn6.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn6.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn6.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn6.setText("destructor");
+        LogInBtn6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PortaavionesBtn.png"))); // NOI18N
         LogInBtn6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn6ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 340, 420, 160));
+        getContentPane().add(LogInBtn6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 300, 420, 160));
 
         LogInBtn7.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn7.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn7.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn7.setText("portaaviones");
+        LogInBtn7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/SubmarinoBtn.png"))); // NOI18N
         LogInBtn7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn7ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 520, 420, 160));
+        getContentPane().add(LogInBtn7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 510, 420, 160));
 
         LogInBtn8.setBackground(new java.awt.Color(18, 40, 61));
         LogInBtn8.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
         LogInBtn8.setForeground(new java.awt.Color(186, 215, 241));
-        LogInBtn8.setText("submarino");
+        LogInBtn8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/DestructorBtn.png"))); // NOI18N
         LogInBtn8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
         LogInBtn8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtn8ActionPerformed(evt);
             }
         });
-        getContentPane().add(LogInBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 520, 420, 160));
+        getContentPane().add(LogInBtn8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 510, 420, 160));
 
         jPanel1.setBackground(new java.awt.Color(200, 191, 208));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
@@ -165,15 +171,40 @@ public class PickerNave extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("OCR A Extended", 1, 24)); // NOI18N
         jTextArea1.setForeground(new java.awt.Color(229, 229, 242));
         jTextArea1.setRows(5);
-        jTextArea1.setText("1. Acorazado\n2. Destructor\n3. Submarino\n4. Destructor");
         jTextArea1.setAutoscrolls(false);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 350, -1));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 350, 150));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 170, 370, 360));
+        jButton2.setText("jButton2");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 210, 70));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/PickerBackground.png"))); // NOI18N
+        jButton3.setText("jButton2");
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 80, 70));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 300, 370, 360));
+
+        playerName4.setFont(new java.awt.Font("Capture it", 2, 36)); // NOI18N
+        playerName4.setForeground(new java.awt.Color(255, 255, 255));
+        playerName4.setText("portaaviones");
+        getContentPane().add(playerName4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 260, 270, 40));
+
+        playerName5.setFont(new java.awt.Font("Capture it", 2, 36)); // NOI18N
+        playerName5.setForeground(new java.awt.Color(255, 255, 255));
+        playerName5.setText("destructor");
+        getContentPane().add(playerName5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 470, 220, 40));
+
+        playerName6.setFont(new java.awt.Font("Capture it", 2, 36)); // NOI18N
+        playerName6.setForeground(new java.awt.Color(255, 255, 255));
+        playerName6.setText("submarino");
+        getContentPane().add(playerName6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 470, 220, 40));
+
+        playerName7.setFont(new java.awt.Font("Capture it", 2, 36)); // NOI18N
+        playerName7.setForeground(new java.awt.Color(255, 255, 255));
+        playerName7.setText("ACORAZADO");
+        getContentPane().add(playerName7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 220, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/SelectingBackground (1).png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1330, -1));
 
         pack();
@@ -235,6 +266,8 @@ public class PickerNave extends javax.swing.JFrame {
     private javax.swing.JButton LogInBtn6;
     private javax.swing.JButton LogInBtn7;
     private javax.swing.JButton LogInBtn8;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -250,5 +283,9 @@ public class PickerNave extends javax.swing.JFrame {
     private javax.swing.JLabel playerName1;
     private javax.swing.JLabel playerName2;
     private javax.swing.JLabel playerName3;
+    private javax.swing.JLabel playerName4;
+    private javax.swing.JLabel playerName5;
+    private javax.swing.JLabel playerName6;
+    private javax.swing.JLabel playerName7;
     // End of variables declaration//GEN-END:variables
 }
