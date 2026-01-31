@@ -28,24 +28,369 @@ public class BattleshipBoard extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
+        jButton32 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
+        jButton38 = new javax.swing.JButton();
+        jButton39 = new javax.swing.JButton();
+        jButton40 = new javax.swing.JButton();
+        jButton41 = new javax.swing.JButton();
+        jButton42 = new javax.swing.JButton();
+        jButton43 = new javax.swing.JButton();
+        jButton44 = new javax.swing.JButton();
+        jButton45 = new javax.swing.JButton();
+        jButton46 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jButton48 = new javax.swing.JButton();
+        jButton49 = new javax.swing.JButton();
+        jButton50 = new javax.swing.JButton();
+        jButton51 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
+        jButton53 = new javax.swing.JButton();
+        jButton54 = new javax.swing.JButton();
+        jButton55 = new javax.swing.JButton();
+        jButton56 = new javax.swing.JButton();
+        jButton57 = new javax.swing.JButton();
+        jButton58 = new javax.swing.JButton();
+        jButton59 = new javax.swing.JButton();
+        jButton60 = new javax.swing.JButton();
+        jButton61 = new javax.swing.JButton();
+        jButton62 = new javax.swing.JButton();
+        jButton63 = new javax.swing.JButton();
+        jButton64 = new javax.swing.JButton();
+        jButton65 = new javax.swing.JButton();
+        jButton67 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        playerName1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        playerName2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        playerName3 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton1.setText("jButton1");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 110));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 0, 190, 90));
 
-        jButton2.setText("jButton1");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 110));
+        jButton3.setText("jButton1");
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 90));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 1390, 690));
+        jButton4.setText("jButton1");
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 0, 190, 90));
+
+        jButton5.setText("jButton1");
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 0, 190, 90));
+
+        jButton6.setText("jButton1");
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 0, 190, 90));
+
+        jButton7.setText("jButton1");
+        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 0, 190, 90));
+
+        jButton8.setText("jButton1");
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 0, 190, 90));
+
+        jButton9.setText("jButton1");
+        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 0, 190, 90));
+
+        jButton10.setText("jButton1");
+        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 190, 90));
+
+        jButton11.setText("jButton1");
+        jPanel1.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 90, 190, 90));
+
+        jButton12.setText("jButton1");
+        jPanel1.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 190, 90));
+
+        jButton13.setText("jButton1");
+        jPanel1.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 90, 190, 90));
+
+        jButton14.setText("jButton1");
+        jPanel1.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 90, 190, 90));
+
+        jButton15.setText("jButton1");
+        jPanel1.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 90, 190, 90));
+
+        jButton16.setText("jButton1");
+        jPanel1.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 90, 190, 90));
+
+        jButton17.setText("jButton1");
+        jPanel1.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 90, 190, 90));
+
+        jButton18.setText("jButton1");
+        jPanel1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 190, 90));
+
+        jButton19.setText("jButton1");
+        jPanel1.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, 190, 90));
+
+        jButton20.setText("jButton1");
+        jPanel1.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 190, 90));
+
+        jButton21.setText("jButton1");
+        jPanel1.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 180, 190, 90));
+
+        jButton22.setText("jButton1");
+        jPanel1.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 180, 190, 90));
+
+        jButton23.setText("jButton1");
+        jPanel1.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 180, 190, 90));
+
+        jButton24.setText("jButton1");
+        jPanel1.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 180, 190, 90));
+
+        jButton25.setText("jButton1");
+        jPanel1.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 180, 190, 90));
+
+        jButton26.setText("jButton1");
+        jPanel1.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, 190, 90));
+
+        jButton27.setText("jButton1");
+        jPanel1.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 270, 190, 90));
+
+        jButton28.setText("jButton1");
+        jPanel1.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 270, 190, 90));
+
+        jButton29.setText("jButton1");
+        jPanel1.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, 190, 90));
+
+        jButton30.setText("jButton1");
+        jPanel1.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 270, 190, 90));
+
+        jButton31.setText("jButton1");
+        jPanel1.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 270, 190, 90));
+
+        jButton32.setText("jButton1");
+        jPanel1.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 270, 190, 90));
+
+        jButton33.setText("jButton1");
+        jPanel1.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 270, 190, 90));
+
+        jButton34.setText("jButton1");
+        jPanel1.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 360, 190, 90));
+
+        jButton35.setText("jButton1");
+        jPanel1.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, 190, 90));
+
+        jButton36.setText("jButton1");
+        jPanel1.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 360, 190, 90));
+
+        jButton37.setText("jButton1");
+        jPanel1.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 360, 190, 90));
+
+        jButton38.setText("jButton1");
+        jPanel1.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 360, 190, 90));
+
+        jButton39.setText("jButton1");
+        jPanel1.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 360, 190, 90));
+
+        jButton40.setText("jButton1");
+        jPanel1.add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 360, 190, 90));
+
+        jButton41.setText("jButton1");
+        jPanel1.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 360, 190, 90));
+
+        jButton42.setText("jButton1");
+        jPanel1.add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 450, 190, 90));
+
+        jButton43.setText("jButton1");
+        jPanel1.add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 450, 190, 90));
+
+        jButton44.setText("jButton1");
+        jPanel1.add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 450, 190, 90));
+
+        jButton45.setText("jButton1");
+        jPanel1.add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 450, 190, 90));
+
+        jButton46.setText("jButton1");
+        jPanel1.add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 450, 190, 90));
+
+        jButton47.setText("jButton1");
+        jPanel1.add(jButton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 450, 190, 90));
+
+        jButton48.setText("jButton1");
+        jPanel1.add(jButton48, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 450, 190, 90));
+
+        jButton49.setText("jButton1");
+        jPanel1.add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 450, 190, 90));
+
+        jButton50.setText("jButton1");
+        jPanel1.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 540, 190, 90));
+
+        jButton51.setText("jButton1");
+        jPanel1.add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 540, 190, 90));
+
+        jButton52.setText("jButton1");
+        jPanel1.add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 540, 190, 90));
+
+        jButton53.setText("jButton1");
+        jPanel1.add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 540, 190, 90));
+
+        jButton54.setText("jButton1");
+        jPanel1.add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 540, 190, 90));
+
+        jButton55.setText("jButton1");
+        jPanel1.add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 540, 190, 90));
+
+        jButton56.setText("jButton1");
+        jPanel1.add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 540, 190, 90));
+
+        jButton57.setText("jButton1");
+        jPanel1.add(jButton57, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 540, 190, 90));
+
+        jButton58.setText("jButton1");
+        jPanel1.add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 630, 190, 90));
+
+        jButton59.setText("jButton1");
+        jPanel1.add(jButton59, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 630, 190, 90));
+
+        jButton60.setText("jButton1");
+        jPanel1.add(jButton60, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 630, 190, 90));
+
+        jButton61.setText("jButton1");
+        jPanel1.add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 630, 190, 90));
+
+        jButton62.setText("jButton1");
+        jPanel1.add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 630, 190, 90));
+
+        jButton63.setText("jButton1");
+        jPanel1.add(jButton63, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 630, 190, 90));
+
+        jButton64.setText("jButton1");
+        jPanel1.add(jButton64, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 630, 190, 90));
+
+        jButton65.setText("jButton1");
+        jPanel1.add(jButton65, new org.netbeans.lib.awtextra.AbsoluteConstraints(1330, 630, 190, 90));
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 1520, 740));
+
+        jButton67.setBackground(new java.awt.Color(103, 7, 7));
+        jButton67.setFont(new java.awt.Font("Capture it", 0, 40)); // NOI18N
+        jButton67.setText("RETIRAR");
+        jButton67.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(255, 0, 0), new java.awt.Color(255, 0, 0)));
+        getContentPane().add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(1620, 130, 220, 100));
+
+        jPanel2.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 51, 51), new java.awt.Color(51, 51, 51)));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setFont(new java.awt.Font("Capture it", 1, 40)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel3.setText("de rival");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 190, 40));
+
+        jPanel3.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        playerName1.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName1.setForeground(new java.awt.Color(9, 9, 71));
+        playerName1.setText("PLAYER NAME");
+        jPanel3.add(playerName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
+
+        jLabel4.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel4.setText("LINEUP PARA:");
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jPanel4.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        playerName2.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName2.setForeground(new java.awt.Color(9, 9, 71));
+        playerName2.setText("PLAYER NAME");
+        jPanel4.add(playerName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
+
+        jLabel5.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel5.setText("LINEUP PARA:");
+        jPanel4.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel5.setBackground(new java.awt.Color(200, 191, 208));
+        jPanel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(7, 9, 73), new java.awt.Color(7, 13, 82), null, null));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        playerName3.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        playerName3.setForeground(new java.awt.Color(9, 9, 71));
+        playerName3.setText("PLAYER NAME");
+        jPanel5.add(playerName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 250, 40));
+
+        jLabel6.setFont(new java.awt.Font("Capture it", 1, 36)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel6.setText("LINEUP PARA:");
+        jPanel5.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 250, 40));
+
+        jPanel4.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 80, 390, 630));
+
+        jLabel7.setFont(new java.awt.Font("Capture it", 1, 40)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel7.setText("NAVES");
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 130, 40));
+
+        jTextField1.setBackground(new java.awt.Color(0, 29, 49));
+        jTextField1.setFont(new java.awt.Font("Capture it", 0, 206)); // NOI18N
+        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1.setText("3");
+        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 240, 210));
+
+        jLabel8.setFont(new java.awt.Font("Capture it", 1, 40)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(9, 9, 71));
+        jLabel8.setText("CANTIDAD DE ");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 270, 40));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1580, 260, 310, 400));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/BattleShipBackground.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, 1920, 1050));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 1920, 1030));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -56,8 +401,85 @@ public class BattleshipBoard extends javax.swing.JFrame {
    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton37;
+    private javax.swing.JButton jButton38;
+    private javax.swing.JButton jButton39;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
+    private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
+    private javax.swing.JButton jButton43;
+    private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton47;
+    private javax.swing.JButton jButton48;
+    private javax.swing.JButton jButton49;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton50;
+    private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
+    private javax.swing.JButton jButton53;
+    private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton55;
+    private javax.swing.JButton jButton56;
+    private javax.swing.JButton jButton57;
+    private javax.swing.JButton jButton58;
+    private javax.swing.JButton jButton59;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton60;
+    private javax.swing.JButton jButton61;
+    private javax.swing.JButton jButton62;
+    private javax.swing.JButton jButton63;
+    private javax.swing.JButton jButton64;
+    private javax.swing.JButton jButton65;
+    private javax.swing.JButton jButton67;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel playerName1;
+    private javax.swing.JLabel playerName2;
+    private javax.swing.JLabel playerName3;
     // End of variables declaration//GEN-END:variables
 }
