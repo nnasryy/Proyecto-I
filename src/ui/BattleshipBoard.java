@@ -15,6 +15,7 @@ public class BattleshipBoard extends javax.swing.JFrame {
      */
     public BattleshipBoard() {
         initComponents();
+        
     }
 
     /**
@@ -41,70 +42,78 @@ public class BattleshipBoard extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
+        jButton68 = new javax.swing.JButton();
+        jButton69 = new javax.swing.JButton();
+        jButton70 = new javax.swing.JButton();
+        jButton71 = new javax.swing.JButton();
+        jButton72 = new javax.swing.JButton();
+        jButton73 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
+        jButton74 = new javax.swing.JButton();
+        jButton75 = new javax.swing.JButton();
+        jButton76 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
+        jButton77 = new javax.swing.JButton();
+        jButton78 = new javax.swing.JButton();
+        jButton79 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
+        jButton80 = new javax.swing.JButton();
+        jButton81 = new javax.swing.JButton();
+        jButton82 = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
+        jButton83 = new javax.swing.JButton();
+        jButton84 = new javax.swing.JButton();
+        jButton85 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
+        jButton86 = new javax.swing.JButton();
+        jButton87 = new javax.swing.JButton();
+        jButton88 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
+        jButton89 = new javax.swing.JButton();
+        jButton90 = new javax.swing.JButton();
+        jButton91 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
+        jButton92 = new javax.swing.JButton();
+        jButton93 = new javax.swing.JButton();
+        jButton94 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
+        jButton95 = new javax.swing.JButton();
+        jButton96 = new javax.swing.JButton();
+        jButton97 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
+        jButton98 = new javax.swing.JButton();
+        jButton99 = new javax.swing.JButton();
+        jButton100 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
+        jButton101 = new javax.swing.JButton();
+        jButton102 = new javax.swing.JButton();
+        jButton103 = new javax.swing.JButton();
         jButton18 = new javax.swing.JButton();
+        jButton104 = new javax.swing.JButton();
+        jButton105 = new javax.swing.JButton();
+        jButton106 = new javax.swing.JButton();
         jButton19 = new javax.swing.JButton();
+        jButton107 = new javax.swing.JButton();
+        jButton108 = new javax.swing.JButton();
+        jButton109 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
+        jButton110 = new javax.swing.JButton();
+        jButton111 = new javax.swing.JButton();
+        jButton112 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
+        jButton113 = new javax.swing.JButton();
+        jButton114 = new javax.swing.JButton();
+        jButton115 = new javax.swing.JButton();
         jButton22 = new javax.swing.JButton();
+        jButton116 = new javax.swing.JButton();
+        jButton117 = new javax.swing.JButton();
+        jButton118 = new javax.swing.JButton();
         jButton23 = new javax.swing.JButton();
+        jButton119 = new javax.swing.JButton();
+        jButton120 = new javax.swing.JButton();
+        jButton121 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
-        jButton38 = new javax.swing.JButton();
-        jButton39 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
-        jButton44 = new javax.swing.JButton();
-        jButton45 = new javax.swing.JButton();
-        jButton46 = new javax.swing.JButton();
-        jButton47 = new javax.swing.JButton();
-        jButton48 = new javax.swing.JButton();
-        jButton49 = new javax.swing.JButton();
-        jButton50 = new javax.swing.JButton();
-        jButton51 = new javax.swing.JButton();
-        jButton52 = new javax.swing.JButton();
-        jButton53 = new javax.swing.JButton();
-        jButton54 = new javax.swing.JButton();
-        jButton55 = new javax.swing.JButton();
-        jButton56 = new javax.swing.JButton();
-        jButton57 = new javax.swing.JButton();
-        jButton58 = new javax.swing.JButton();
-        jButton59 = new javax.swing.JButton();
-        jButton60 = new javax.swing.JButton();
-        jButton61 = new javax.swing.JButton();
-        jButton62 = new javax.swing.JButton();
-        jButton63 = new javax.swing.JButton();
-        jButton64 = new javax.swing.JButton();
-        jButton65 = new javax.swing.JButton();
-        jButton66 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -112,10 +121,15 @@ public class BattleshipBoard extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton67.setBackground(new java.awt.Color(103, 7, 7));
-        jButton67.setFont(new java.awt.Font("Capture it", 0, 40)); // NOI18N
-        jButton67.setText("RETIRAR");
+        jButton67.setFont(new java.awt.Font("Capture it", 0, 48)); // NOI18N
+        jButton67.setText(" retirar");
         jButton67.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(255, 0, 0), new java.awt.Color(255, 0, 0)));
-        getContentPane().add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(1620, 130, 220, 100));
+        jButton67.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton67ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton67, new org.netbeans.lib.awtextra.AbsoluteConstraints(1580, 140, 300, 100));
 
         jPanel2.setBackground(new java.awt.Color(200, 191, 208));
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 51, 51), new java.awt.Color(51, 51, 51)));
@@ -182,7 +196,6 @@ public class BattleshipBoard extends javax.swing.JFrame {
         jTextField1.setBackground(new java.awt.Color(0, 29, 49));
         jTextField1.setFont(new java.awt.Font("Capture it", 0, 206)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField1.setText("3");
         jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 240, 210));
 
         jLabel8.setFont(new java.awt.Font("Capture it", 1, 40)); // NOI18N
@@ -192,51 +205,99 @@ public class BattleshipBoard extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1580, 260, 310, 400));
 
-        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton3.setContentAreaFilled(false);
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 260, 190, 90));
-
-        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton4.setContentAreaFilled(false);
-        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 260, 190, 90));
-
-        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton5.setContentAreaFilled(false);
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, 190, 90));
-
-        jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton6.setContentAreaFilled(false);
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 190, 90));
-
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton7.setContentAreaFilled(false);
-        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 190, 90));
+        jButton7.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 190, 90));
+
+        jButton68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton68.setContentAreaFilled(false);
+        jButton68.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton68, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, 190, 90));
+
+        jButton69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton69.setContentAreaFilled(false);
+        jButton69.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton69, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 190, 90));
+
+        jButton70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton70.setContentAreaFilled(false);
+        jButton70.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton70, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 190, 90));
+
+        jButton71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton71.setContentAreaFilled(false);
+        jButton71.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton71, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 260, 190, 90));
+
+        jButton72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton72.setContentAreaFilled(false);
+        jButton72.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton72, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 260, 190, 90));
+
+        jButton73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton73.setContentAreaFilled(false);
+        jButton73.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton73, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 260, 190, 90));
 
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton8.setContentAreaFilled(false);
+        jButton8.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 190, 90));
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 260, 190, 90));
+
+        jButton74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton74.setContentAreaFilled(false);
+        jButton74.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton74, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, 190, 90));
+
+        jButton75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton75.setContentAreaFilled(false);
+        jButton75.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton75, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, 190, 90));
+
+        jButton76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton76.setContentAreaFilled(false);
+        jButton76.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton76, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, 190, 90));
 
         jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton9.setContentAreaFilled(false);
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 260, 190, 90));
+        jButton9.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, 190, 90));
+
+        jButton77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton77.setContentAreaFilled(false);
+        jButton77.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton77, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 260, 190, 90));
+
+        jButton78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton78.setContentAreaFilled(false);
+        jButton78.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton78, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 260, 190, 90));
+
+        jButton79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton79.setContentAreaFilled(false);
+        jButton79.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton79, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 260, 190, 90));
 
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton10.setContentAreaFilled(false);
+        jButton10.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
@@ -244,369 +305,355 @@ public class BattleshipBoard extends javax.swing.JFrame {
         });
         getContentPane().add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 260, 190, 90));
 
+        jButton80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton80.setContentAreaFilled(false);
+        jButton80.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton80, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 190, 90));
+
+        jButton81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton81.setContentAreaFilled(false);
+        jButton81.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton81, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 350, 190, 90));
+
+        jButton82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton82.setContentAreaFilled(false);
+        jButton82.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton82, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 350, 190, 90));
+
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton11.setContentAreaFilled(false);
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 190, 90));
+        jButton11.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 350, 190, 90));
+
+        jButton83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton83.setContentAreaFilled(false);
+        jButton83.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton83, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 350, 190, 90));
+
+        jButton84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton84.setContentAreaFilled(false);
+        jButton84.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton84, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 350, 190, 90));
+
+        jButton85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton85.setContentAreaFilled(false);
+        jButton85.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton85, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 350, 190, 90));
 
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton12.setContentAreaFilled(false);
+        jButton12.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 350, 190, 90));
+        getContentPane().add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 350, 190, 90));
+
+        jButton86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton86.setContentAreaFilled(false);
+        jButton86.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton86, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, 190, 90));
+
+        jButton87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton87.setContentAreaFilled(false);
+        jButton87.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton87, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 440, 190, 90));
+
+        jButton88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton88.setContentAreaFilled(false);
+        jButton88.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton88, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, 190, 90));
 
         jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton13.setContentAreaFilled(false);
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 350, 190, 90));
+        jButton13.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 440, 190, 90));
+
+        jButton89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton89.setContentAreaFilled(false);
+        jButton89.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton89, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 440, 190, 90));
+
+        jButton90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton90.setContentAreaFilled(false);
+        jButton90.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton90, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 440, 190, 90));
+
+        jButton91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton91.setContentAreaFilled(false);
+        jButton91.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton91, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 440, 190, 90));
 
         jButton14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton14.setContentAreaFilled(false);
+        jButton14.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 350, 190, 90));
+        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 440, 190, 90));
+
+        jButton92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton92.setContentAreaFilled(false);
+        jButton92.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton92, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 530, 190, 90));
+
+        jButton93.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton93.setContentAreaFilled(false);
+        jButton93.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton93, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 530, 190, 90));
+
+        jButton94.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton94.setContentAreaFilled(false);
+        jButton94.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton94, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 530, 190, 90));
 
         jButton15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton15.setContentAreaFilled(false);
-        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 350, 190, 90));
+        jButton15.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 530, 190, 90));
+
+        jButton95.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton95.setContentAreaFilled(false);
+        jButton95.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton95, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 530, 190, 90));
+
+        jButton96.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton96.setContentAreaFilled(false);
+        jButton96.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton96, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 530, 190, 90));
+
+        jButton97.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton97.setContentAreaFilled(false);
+        jButton97.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton97, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 530, 190, 90));
 
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton16.setContentAreaFilled(false);
+        jButton16.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 350, 190, 90));
+        getContentPane().add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 530, 190, 90));
+
+        jButton98.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton98.setContentAreaFilled(false);
+        jButton98.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton98, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 620, 190, 90));
+
+        jButton99.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton99.setContentAreaFilled(false);
+        jButton99.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton99, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 620, 190, 90));
+
+        jButton100.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton100.setContentAreaFilled(false);
+        jButton100.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton100, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 620, 190, 90));
 
         jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton17.setContentAreaFilled(false);
-        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 350, 190, 90));
+        jButton17.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 620, 190, 90));
+
+        jButton101.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton101.setContentAreaFilled(false);
+        jButton101.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton101, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 620, 190, 90));
+
+        jButton102.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton102.setContentAreaFilled(false);
+        jButton102.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton102, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 620, 190, 90));
+
+        jButton103.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton103.setContentAreaFilled(false);
+        jButton103.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton103, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 190, 90));
 
         jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton18.setContentAreaFilled(false);
+        jButton18.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 350, 190, 90));
+        getContentPane().add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 620, 190, 90));
+
+        jButton104.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton104.setContentAreaFilled(false);
+        jButton104.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton104, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 190, 90));
+
+        jButton105.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton105.setContentAreaFilled(false);
+        jButton105.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton105, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 710, 190, 90));
+
+        jButton106.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton106.setContentAreaFilled(false);
+        jButton106.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton106, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 710, 190, 90));
 
         jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton19.setContentAreaFilled(false);
-        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, 190, 90));
+        jButton19.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 710, 190, 90));
+
+        jButton107.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton107.setContentAreaFilled(false);
+        jButton107.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton107, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 710, 190, 90));
+
+        jButton108.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton108.setContentAreaFilled(false);
+        jButton108.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton108, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 710, 190, 90));
+
+        jButton109.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton109.setContentAreaFilled(false);
+        jButton109.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton109, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 710, 190, 90));
 
         jButton20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton20.setContentAreaFilled(false);
+        jButton20.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 440, 190, 90));
+        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 710, 190, 90));
+
+        jButton110.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton110.setContentAreaFilled(false);
+        jButton110.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton110, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 800, 190, 90));
+
+        jButton111.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton111.setContentAreaFilled(false);
+        jButton111.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton111, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 800, 190, 90));
+
+        jButton112.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton112.setContentAreaFilled(false);
+        jButton112.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton112, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 800, 190, 90));
 
         jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton21.setContentAreaFilled(false);
-        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 440, 190, 90));
+        jButton21.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 800, 190, 90));
+
+        jButton113.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton113.setContentAreaFilled(false);
+        jButton113.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton113, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 800, 190, 90));
+
+        jButton114.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton114.setContentAreaFilled(false);
+        jButton114.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton114, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 800, 190, 90));
+
+        jButton115.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton115.setContentAreaFilled(false);
+        jButton115.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton115, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 800, 190, 90));
 
         jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton22.setContentAreaFilled(false);
+        jButton22.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton22ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 440, 190, 90));
+        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 800, 190, 90));
+
+        jButton116.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton116.setContentAreaFilled(false);
+        jButton116.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton116, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 890, 190, 90));
+
+        jButton117.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton117.setContentAreaFilled(false);
+        jButton117.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton117, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 890, 190, 90));
+
+        jButton118.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton118.setContentAreaFilled(false);
+        jButton118.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton118, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 890, 190, 90));
 
         jButton23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton23.setContentAreaFilled(false);
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 440, 190, 90));
+        jButton23.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 890, 190, 90));
+
+        jButton119.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton119.setContentAreaFilled(false);
+        jButton119.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton119, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 890, 190, 90));
+
+        jButton120.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton120.setContentAreaFilled(false);
+        jButton120.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton120, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 890, 190, 90));
+
+        jButton121.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
+        jButton121.setContentAreaFilled(false);
+        jButton121.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
+        getContentPane().add(jButton121, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 890, 190, 90));
 
         jButton24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
         jButton24.setContentAreaFilled(false);
+        jButton24.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Target.png"))); // NOI18N
         jButton24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton24ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 440, 190, 90));
-
-        jButton25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton25.setContentAreaFilled(false);
-        getContentPane().add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 440, 190, 90));
-
-        jButton26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton26.setContentAreaFilled(false);
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 440, 190, 90));
-
-        jButton27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton27.setContentAreaFilled(false);
-        getContentPane().add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 530, 190, 90));
-
-        jButton28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton28.setContentAreaFilled(false);
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 530, 190, 90));
-
-        jButton29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton29.setContentAreaFilled(false);
-        getContentPane().add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 530, 190, 90));
-
-        jButton30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton30.setContentAreaFilled(false);
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 530, 190, 90));
-
-        jButton31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton31.setContentAreaFilled(false);
-        getContentPane().add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 530, 190, 90));
-
-        jButton32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton32.setContentAreaFilled(false);
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 530, 190, 90));
-
-        jButton33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton33.setContentAreaFilled(false);
-        getContentPane().add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 530, 190, 90));
-
-        jButton34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton34.setContentAreaFilled(false);
-        jButton34.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton34ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 530, 190, 90));
-
-        jButton35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton35.setContentAreaFilled(false);
-        getContentPane().add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 620, 190, 90));
-
-        jButton36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton36.setContentAreaFilled(false);
-        jButton36.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton36ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 620, 190, 90));
-
-        jButton37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton37.setContentAreaFilled(false);
-        getContentPane().add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 620, 190, 90));
-
-        jButton38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton38.setContentAreaFilled(false);
-        jButton38.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton38ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 620, 190, 90));
-
-        jButton39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton39.setContentAreaFilled(false);
-        getContentPane().add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 620, 190, 90));
-
-        jButton40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton40.setContentAreaFilled(false);
-        jButton40.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton40ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton40, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 620, 190, 90));
-
-        jButton41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton41.setContentAreaFilled(false);
-        getContentPane().add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 620, 190, 90));
-
-        jButton42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton42.setContentAreaFilled(false);
-        jButton42.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton42ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton42, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 620, 190, 90));
-
-        jButton43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton43.setContentAreaFilled(false);
-        getContentPane().add(jButton43, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 710, 190, 90));
-
-        jButton44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton44.setContentAreaFilled(false);
-        jButton44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton44ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton44, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 710, 190, 90));
-
-        jButton45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton45.setContentAreaFilled(false);
-        getContentPane().add(jButton45, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 710, 190, 90));
-
-        jButton46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton46.setContentAreaFilled(false);
-        jButton46.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton46ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton46, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 710, 190, 90));
-
-        jButton47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton47.setContentAreaFilled(false);
-        getContentPane().add(jButton47, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 710, 190, 90));
-
-        jButton48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton48.setContentAreaFilled(false);
-        jButton48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton48ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton48, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 710, 190, 90));
-
-        jButton49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton49.setContentAreaFilled(false);
-        getContentPane().add(jButton49, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 710, 190, 90));
-
-        jButton50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton50.setContentAreaFilled(false);
-        jButton50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton50ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 710, 190, 90));
-
-        jButton51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton51.setContentAreaFilled(false);
-        getContentPane().add(jButton51, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 800, 190, 90));
-
-        jButton52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton52.setContentAreaFilled(false);
-        jButton52.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton52ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton52, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 800, 190, 90));
-
-        jButton53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton53.setContentAreaFilled(false);
-        getContentPane().add(jButton53, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 800, 190, 90));
-
-        jButton54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton54.setContentAreaFilled(false);
-        jButton54.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton54ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton54, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 800, 190, 90));
-
-        jButton55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton55.setContentAreaFilled(false);
-        getContentPane().add(jButton55, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 800, 190, 90));
-
-        jButton56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton56.setContentAreaFilled(false);
-        jButton56.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton56ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton56, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 800, 190, 90));
-
-        jButton57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton57.setContentAreaFilled(false);
-        getContentPane().add(jButton57, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 800, 190, 90));
-
-        jButton58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton58.setContentAreaFilled(false);
-        jButton58.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton58ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton58, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 800, 190, 90));
-
-        jButton59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton59.setContentAreaFilled(false);
-        getContentPane().add(jButton59, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 890, 190, 90));
-
-        jButton60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton60.setContentAreaFilled(false);
-        jButton60.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton60ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton60, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 890, 190, 90));
-
-        jButton61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton61.setContentAreaFilled(false);
-        getContentPane().add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 890, 190, 90));
-
-        jButton62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton62.setContentAreaFilled(false);
-        jButton62.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton62ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton62, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 890, 190, 90));
-
-        jButton63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton63.setContentAreaFilled(false);
-        getContentPane().add(jButton63, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 890, 190, 90));
-
-        jButton64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton64.setContentAreaFilled(false);
-        jButton64.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton64ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton64, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 890, 190, 90));
-
-        jButton65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton65.setContentAreaFilled(false);
-        getContentPane().add(jButton65, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 890, 190, 90));
-
-        jButton66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(168, 232, 255), 3));
-        jButton66.setContentAreaFilled(false);
-        jButton66.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton66ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton66, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 890, 190, 90));
+        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 890, 190, 90));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/BattleShipBackground.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 0, 1920, 1030));
@@ -614,133 +661,81 @@ public class BattleshipBoard extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_jButton67ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton8ActionPerformed
 
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton12ActionPerformed
 
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton16ActionPerformed
 
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton17ActionPerformed
+
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton20ActionPerformed
 
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
+
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton22ActionPerformed
 
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton23ActionPerformed
+
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton24ActionPerformed
-
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton26ActionPerformed
-
-    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton28ActionPerformed
-
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton30ActionPerformed
-
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton32ActionPerformed
-
-    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton34ActionPerformed
-
-    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton36ActionPerformed
-
-    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton38ActionPerformed
-
-    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton40ActionPerformed
-
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton42ActionPerformed
-
-    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton44ActionPerformed
-
-    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton46ActionPerformed
-
-    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton48ActionPerformed
-
-    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton50ActionPerformed
-
-    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton52ActionPerformed
-
-    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton54ActionPerformed
-
-    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton56ActionPerformed
-
-    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton58ActionPerformed
-
-    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton60ActionPerformed
-
-    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton62ActionPerformed
-
-    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton64ActionPerformed
-
-    private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton66ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -748,8 +743,30 @@ public class BattleshipBoard extends javax.swing.JFrame {
    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton100;
+    private javax.swing.JButton jButton101;
+    private javax.swing.JButton jButton102;
+    private javax.swing.JButton jButton103;
+    private javax.swing.JButton jButton104;
+    private javax.swing.JButton jButton105;
+    private javax.swing.JButton jButton106;
+    private javax.swing.JButton jButton107;
+    private javax.swing.JButton jButton108;
+    private javax.swing.JButton jButton109;
     private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton110;
+    private javax.swing.JButton jButton111;
+    private javax.swing.JButton jButton112;
+    private javax.swing.JButton jButton113;
+    private javax.swing.JButton jButton114;
+    private javax.swing.JButton jButton115;
+    private javax.swing.JButton jButton116;
+    private javax.swing.JButton jButton117;
+    private javax.swing.JButton jButton118;
+    private javax.swing.JButton jButton119;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton120;
+    private javax.swing.JButton jButton121;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
@@ -762,56 +779,42 @@ public class BattleshipBoard extends javax.swing.JFrame {
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
-    private javax.swing.JButton jButton45;
-    private javax.swing.JButton jButton46;
-    private javax.swing.JButton jButton47;
-    private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton49;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton50;
-    private javax.swing.JButton jButton51;
-    private javax.swing.JButton jButton52;
-    private javax.swing.JButton jButton53;
-    private javax.swing.JButton jButton54;
-    private javax.swing.JButton jButton55;
-    private javax.swing.JButton jButton56;
-    private javax.swing.JButton jButton57;
-    private javax.swing.JButton jButton58;
-    private javax.swing.JButton jButton59;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton60;
-    private javax.swing.JButton jButton61;
-    private javax.swing.JButton jButton62;
-    private javax.swing.JButton jButton63;
-    private javax.swing.JButton jButton64;
-    private javax.swing.JButton jButton65;
-    private javax.swing.JButton jButton66;
     private javax.swing.JButton jButton67;
+    private javax.swing.JButton jButton68;
+    private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton70;
+    private javax.swing.JButton jButton71;
+    private javax.swing.JButton jButton72;
+    private javax.swing.JButton jButton73;
+    private javax.swing.JButton jButton74;
+    private javax.swing.JButton jButton75;
+    private javax.swing.JButton jButton76;
+    private javax.swing.JButton jButton77;
+    private javax.swing.JButton jButton78;
+    private javax.swing.JButton jButton79;
     private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton80;
+    private javax.swing.JButton jButton81;
+    private javax.swing.JButton jButton82;
+    private javax.swing.JButton jButton83;
+    private javax.swing.JButton jButton84;
+    private javax.swing.JButton jButton85;
+    private javax.swing.JButton jButton86;
+    private javax.swing.JButton jButton87;
+    private javax.swing.JButton jButton88;
+    private javax.swing.JButton jButton89;
     private javax.swing.JButton jButton9;
+    private javax.swing.JButton jButton90;
+    private javax.swing.JButton jButton91;
+    private javax.swing.JButton jButton92;
+    private javax.swing.JButton jButton93;
+    private javax.swing.JButton jButton94;
+    private javax.swing.JButton jButton95;
+    private javax.swing.JButton jButton96;
+    private javax.swing.JButton jButton97;
+    private javax.swing.JButton jButton98;
+    private javax.swing.JButton jButton99;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
