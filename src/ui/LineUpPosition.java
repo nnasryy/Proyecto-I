@@ -834,7 +834,7 @@ public class LineUpPosition extends javax.swing.JFrame {
         jLabel7.setText("player01_");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 40, 340, 60));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 960, 660));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 960, 660));
 
         jLabel1.setBackground(new java.awt.Color(28, 28, 28));
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
