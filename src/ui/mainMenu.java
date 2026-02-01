@@ -10,10 +10,9 @@ package ui;
  */
 public class mainMenu extends javax.swing.JFrame {
 
-    /**
-     * Creates new form mainMenu
-     */
- 
+    public mainMenu() {
+        initComponents();
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -27,7 +26,7 @@ public class mainMenu extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         LogInBtn = new javax.swing.JButton();
         SignUpBtn = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        exit = new javax.swing.JButton();
         Background = new javax.swing.JLabel();
 
         jButton1.setText("jButton1");
@@ -40,6 +39,7 @@ public class mainMenu extends javax.swing.JFrame {
         LogInBtn.setForeground(new java.awt.Color(186, 215, 241));
         LogInBtn.setText("LOG IN");
         LogInBtn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 204, 255), new java.awt.Color(153, 204, 255), null, null));
+        LogInBtn.setFocusPainted(false);
         LogInBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LogInBtnActionPerformed(evt);
@@ -59,12 +59,17 @@ public class mainMenu extends javax.swing.JFrame {
         });
         getContentPane().add(SignUpBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 230, 40));
 
-        jButton2.setBackground(new java.awt.Color(102, 0, 0));
-        jButton2.setFont(new java.awt.Font("Capture it", 0, 24)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 204, 204));
-        jButton2.setText("Salir");
-        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 540, 120, 40));
+        exit.setBackground(new java.awt.Color(102, 0, 0));
+        exit.setFont(new java.awt.Font("Capture it", 0, 24)); // NOI18N
+        exit.setForeground(new java.awt.Color(255, 204, 204));
+        exit.setText("Salir");
+        exit.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        exit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exitActionPerformed(evt);
+            }
+        });
+        getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 540, 120, 40));
 
         Background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mainMenu.png"))); // NOI18N
         getContentPane().add(Background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 590));
@@ -73,23 +78,32 @@ public class mainMenu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void LogInBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LogInBtnActionPerformed
-        // TODO add your handling code here:
+        LogIn login = new LogIn();
+        login.setLocationRelativeTo(null);
+        login.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_LogInBtnActionPerformed
 
     private void SignUpBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignUpBtnActionPerformed
-        // TODO add your handling code here:
+        SignUp signup = new SignUp();
+        signup.setLocationRelativeTo(null);
+        signup.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_SignUpBtnActionPerformed
+
+    private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_exitActionPerformed
 
     /**
      * @param args the command line arguments
      */
 
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Background;
     private javax.swing.JButton LogInBtn;
     private javax.swing.JButton SignUpBtn;
+    private javax.swing.JButton exit;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     // End of variables declaration//GEN-END:variables
 }

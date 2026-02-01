@@ -4,47 +4,58 @@
  */
 package battleshipdinamico;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author nasry
  */
 public class Player {
 
+    private static ArrayList<Player> players = new ArrayList<>();
+
     private String username;
     private String password;
-    private int puntos;
-    private String[] logs;
 
-    //Constructos de Datos Principales del Jugador 
     public Player(String username, String password) {
         this.username = username;
         this.password = password;
-        this.puntos = 0;
-        this.logs = new String[10];
     }
 
-    public String getUsername() {
-        return username;
+    // Validar user y password length
+    public static boolean lengthValido(String text) {
+        return text.length() >= 3 && text.length() <= 20;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public static boolean usernameExists(String username) {
+        for (Player p : players) {
+            if (p.username.equals(username)) {
+                return true;
+            }
+        }
+        return false;
     }
 
-    public String getPassword() {
-        return password;
+//Para Sign Up
+    public static boolean registrar(String username, String password) {
+        if (!lengthValido(username) || !lengthValido(password)) {
+            return false;
+        }
+        if (usernameExists(username)) {
+            return false;
+        }
+        players.add(new Player(username, password));
+        return true;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public int getPuntos() {
-        return puntos;
-    }
-
-    public void sumarPuntos(int puntos) {
-        this.puntos += puntos;
+    //Para Log In
+    public static Player login(String username, String password) {
+        for (Player p : players) {
+            if (p.username.equals(username) && p.password.equals(password)) {
+                return p;
+            }
+        }
+        return null;
     }
 
 }

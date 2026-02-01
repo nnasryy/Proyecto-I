@@ -4,6 +4,9 @@
  */
 package ui;
 
+import battleshipdinamico.Player;
+import messages.Min3JOPREP;
+import messages.SameUsernameJOPREP;
 /**
  *
  * @author nasry
@@ -29,11 +32,11 @@ public class SignUp extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
+        textUsername = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        jPasswordField1 = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        textPassword = new javax.swing.JPasswordField();
+        next = new javax.swing.JButton();
+        exit = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -53,51 +56,56 @@ public class SignUp extends javax.swing.JFrame {
         jLabel4.setText("username:");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 200, 40));
 
-        jTextField2.setBackground(new java.awt.Color(34, 33, 33));
-        jTextField2.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(0, 255, 0));
-        jTextField2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        textUsername.setBackground(new java.awt.Color(34, 33, 33));
+        textUsername.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
+        textUsername.setForeground(new java.awt.Color(0, 255, 0));
+        textUsername.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(51, 255, 0), new java.awt.Color(0, 255, 0)));
+        textUsername.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                textUsernameActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 250, 40));
+        jPanel1.add(textUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 250, 40));
 
         jLabel2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(22, 188, 63));
         jLabel2.setText("password:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 210, 40));
 
-        jPasswordField1.setBackground(new java.awt.Color(34, 33, 33));
-        jPasswordField1.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
-        jPasswordField1.setForeground(new java.awt.Color(0, 255, 0));
-        jPasswordField1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
-        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 250, 40));
-
-        jButton1.setBackground(new java.awt.Color(34, 33, 33));
-        jButton1.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 204, 0));
-        jButton1.setText("siguiente");
-        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        textPassword.setBackground(new java.awt.Color(34, 33, 33));
+        textPassword.setFont(new java.awt.Font("OCR A Extended", 1, 20)); // NOI18N
+        textPassword.setForeground(new java.awt.Color(0, 255, 0));
+        textPassword.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
+        textPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                textPasswordActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 360, 170, 40));
+        jPanel1.add(textPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 270, 250, 40));
 
-        jButton2.setBackground(new java.awt.Color(34, 33, 33));
-        jButton2.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 204, 0));
-        jButton2.setText("salir");
-        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        next.setBackground(new java.awt.Color(34, 33, 33));
+        next.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        next.setForeground(new java.awt.Color(0, 204, 0));
+        next.setText("siguiente");
+        next.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
+        next.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                nextActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, 170, 40));
+        jPanel1.add(next, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 360, 170, 40));
+
+        exit.setBackground(new java.awt.Color(34, 33, 33));
+        exit.setFont(new java.awt.Font("Inlanders", 0, 24)); // NOI18N
+        exit.setForeground(new java.awt.Color(0, 204, 0));
+        exit.setText("salir");
+        exit.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, null, new java.awt.Color(0, 255, 0), new java.awt.Color(0, 255, 0)));
+        exit.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                exitActionPerformed(evt);
+            }
+        });
+        jPanel1.add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, 170, 40));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 90, 520, 430));
 
@@ -108,17 +116,43 @@ public class SignUp extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void textUsernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textUsernameActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_textUsernameActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
+      String user = textUsername.getText().trim();
+      String pass = textPassword.getText().trim();
+        
+      if(!Player.lengthValido(user)||!Player.lengthValido(pass)){
+    Min3JOPREP min3 = new Min3JOPREP();
+    min3.setVisible(true);
+    return;
+    }
+        if(Player.usernameExists(user)){
+        SameUsernameJOPREP sameuser = new SameUsernameJOPREP();
+        sameuser.setVisible(true);
+        return;
+        }
+        
+        Player.registrar(user, pass);
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.setLocationRelativeTo(null);
+        menu.setVisible(true);
+        this.dispose();
+        
+    }//GEN-LAST:event_nextActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
+        mainMenu menu = new mainMenu();
+        menu.setLocationRelativeTo(null);
+        menu.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_exitActionPerformed
+
+    private void textPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textPasswordActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_textPasswordActionPerformed
 
     /**
      * @param args the command line arguments
@@ -126,14 +160,14 @@ public class SignUp extends javax.swing.JFrame {
  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton exit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JButton next;
+    private javax.swing.JPasswordField textPassword;
+    private javax.swing.JTextField textUsername;
     // End of variables declaration//GEN-END:variables
 }

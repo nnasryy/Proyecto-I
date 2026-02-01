@@ -4,6 +4,9 @@
  */
 package battleshipdinamico;
 
+import javax.swing.SwingUtilities;
+import ui.mainMenu;
+
 /**
  *
  * @author nasry
@@ -14,7 +17,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       SwingUtilities.invokeLater(() ->{
+    mainMenu menu = new mainMenu();
+    menu.setLocationRelativeTo(null);
+    menu.setVisible(true);
+    });
+        
+        
     }
     
 }

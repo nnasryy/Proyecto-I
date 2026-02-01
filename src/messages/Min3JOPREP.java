@@ -26,17 +26,23 @@ public class Min3JOPREP extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+
+        jLabel3.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel3.setText("username y password deben de tener entre");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("Minimo 3 caracteres en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, 90));
+        jLabel2.setText("username y password deben de tener entre");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 110, -1, 40));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
@@ -49,6 +55,11 @@ public class Min3JOPREP extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 170, 50));
+
+        jLabel4.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel4.setText("3 y 20 caracteres");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 150, -1, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));
@@ -69,5 +80,7 @@ public class Min3JOPREP extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }
