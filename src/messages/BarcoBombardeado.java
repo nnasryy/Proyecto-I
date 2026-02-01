@@ -8,12 +8,12 @@ package messages;
  *
  * @author nasry
  */
-public class Max20JOPREP extends javax.swing.JFrame {
+public class BarcoBombardeado extends javax.swing.JFrame {
 
     /**
-     * Creates new form Max20JOPREP
+     * Creates new form BarcoBombardeado
      */
-    public Max20JOPREP() {
+    public BarcoBombardeado() {
         initComponents();
     }
 
@@ -26,17 +26,18 @@ public class Max20JOPREP extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Cold Warm", 0, 22)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel2.setText("MaXIMO 20 caracteres en username y password");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, 90));
+        jLabel3.setFont(new java.awt.Font("Cold Warm", 0, 26)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel3.setText("Faltan 3 bombas para HUNDIRLO");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 420, 30));
 
         jButton1.setBackground(new java.awt.Color(34, 33, 33));
         jButton1.setFont(new java.awt.Font("Cold Warm", 0, 24)); // NOI18N
@@ -48,7 +49,12 @@ public class Max20JOPREP extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 190, 170, 50));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 190, 170, 50));
+
+        jLabel4.setFont(new java.awt.Font("Cold Warm", 0, 28)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 255, 0));
+        jLabel4.setText("HAS BOMBARDEADO A UN SUBMARINO!");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 120, -1, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/joprep.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 280));
@@ -63,11 +69,12 @@ public class Max20JOPREP extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-
+ 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     // End of variables declaration//GEN-END:variables
 }

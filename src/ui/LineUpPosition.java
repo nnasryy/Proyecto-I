@@ -817,7 +817,7 @@ public class LineUpPosition extends javax.swing.JFrame {
         jTextArea1.setEnabled(false);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 100, 290, 310));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 100, 290, 300));
 
         jLabel5.setFont(new java.awt.Font("OCR A Extended", 1, 26)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 255, 0));
